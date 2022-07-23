@@ -5,10 +5,12 @@
     font-weight: 700;
     line-height: 1.19;
 
-    &__text {
-        color:var(--changes-color);
-    }
     
+    
+}
+
+.logo__text {
+    color:var(--changes-color);
 }
 .nav__logo{
     margin-right: 93px;

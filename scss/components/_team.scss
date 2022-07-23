@@ -15,34 +15,33 @@
 .team-card{
     display: flex;
     justify-content: space-between;
-
-    &__people{
-        margin-right: 30px;
-        text-align: center;
-        background-color: var(--fon-color);
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-    }
-
-    &__img{
-        padding-top: 30px;
-    }
-
-    &__text {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.19;
-        margin-bottom: 10px;
-    }
-
-    &__paragraph {
-        color: var(--paragraph-color);
-        font-size: 16px;
-        line-height: 1.71;
-    }
-
-    
 }
+
+.team-card__people{
+    margin-right: 30px;
+    text-align: center;
+    background-color: var(--fon-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-card__img{
+    padding-top: 30px;
+}
+
+.team-card__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    margin-bottom: 10px;
+}
+
+.team-card__paragraph {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 1.71;
+}
+
 
 .team__team-card{
     margin-top: 50px;
