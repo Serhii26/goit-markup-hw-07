@@ -1,0 +1,91 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    &__color {
+        color:var(--main-color);
+    }
+
+    &__list{
+        display: flex;
+        position: relative;
+
+        &:last-child{
+            margin-right: 0px;
+
+        &  .nav__line{
+                margin-right: 50px;
+            } 
+        }
+    }
+
+    &__line{
+        display: flex;
+    }
+
+    & .current{
+        color:var(--changes-color);
+     }
+
+    &__button {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        
+        font-weight: 500;
+        line-height: 1.14;
+        fill: var(--paragraph-color);
+        transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1), fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus{
+         color:var(--changes-color); 
+         fill: var(--changes-color);
+              }
+    }
+
+    &__contakt {
+        display: flex;
+        color:var(--paragraph-color);
+    }
+
+    &__icon{
+        margin-right: 10px;
+    }
+
+
+}
+
+
+.nav.nav__color .current::before
+ {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    left: 0 ;
+    bottom: 0;
+    width: 49px;
+    height: 4px;
+    border-radius: 2px;
+    background-color:var(--changes-color);
+
+} 
+
+
+
+.nav__contakt .nav__line + .nav__line{
+    margin-left: 50px;
+} 
+
+    .nav.nav__link .current::before
+{
+   position: absolute;
+   display: inline-block;
+   content: "";
+   right: 40%; ;
+   bottom: 0;
+   width: 78px;
+   height: 4px;
+   border-radius: 2px;
+   background-color: var(--changes-color);
+}

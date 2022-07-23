@@ -1,0 +1,59 @@
+.footer {
+    background-color: #2F303A; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__conteiner{
+        display: flex;
+    }
+}
+
+.footer-address{
+    &__link{
+        margin-bottom: 9px;
+        
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+
+    &__button{
+        color: var(--fon-color);
+        font-weight: 400;
+        line-height: 1.71;
+        transition: color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus{
+           color:var(--changes-color);
+              }
+
+        &.connect{
+                color: rgba(255, 255, 255, 0.6);
+                transition: color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+
+                &:hover,
+                &:focus{
+                   color:var(--changes-color);
+                      }
+            }
+            
+        
+    }
+
+    
+}
+
+.logo__footer-address{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+

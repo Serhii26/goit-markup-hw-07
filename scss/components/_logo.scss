@@ -1,0 +1,16 @@
+.logo {
+    color:var(--fon-color);
+    font-family: Raleway,sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+
+    &__text {
+        color:var(--changes-color);
+    }
+    
+}
+.nav__logo{
+    margin-right: 93px;
+
+}
