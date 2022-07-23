@@ -2,19 +2,6 @@
     display: flex;
     justify-content: center;
 
-    &__blok{
-        margin-right: 10px;
-
-        &:last-child{
-            margin-right: 0px;
-        }
-    &--dark{
-            background-color: #3f3f42;
-            fill: var(--fon-color);
-        }
-        
-    }
-    
     &__link{
         display: flex;
         border: 0px;
@@ -34,6 +21,21 @@
             }
 
     }
+
+    &__blok{
+        margin-right: 10px;
+
+        &:last-child{
+            margin-right: 0px;
+        }
+    &--dark{
+            background-color: #3f3f42;
+            fill: var(--fon-color);
+        }
+        
+    }
+    
+   
 
 }
 
