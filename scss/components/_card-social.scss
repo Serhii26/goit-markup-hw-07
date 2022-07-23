@@ -28,15 +28,17 @@
         &:last-child{
             margin-right: 0px;
         }
-    &--dark{
-            background-color: #3f3f42;
-            fill: var(--fon-color);
-        }
+    
         
     }
     
    
 
+}
+
+.card-social__blok--dark{
+    background-color: #3f3f42;
+    fill: var(--fon-color);
 }
 
 
